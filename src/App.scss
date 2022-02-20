@@ -1,0 +1,74 @@
+@import './index.scss';
+.clock {
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  
+
+  &__digital{
+    margin-top:50px;
+
+    @include tablet{
+      
+      margin-top:100px;
+    }
+
+    @include desktop{
+      width:50%;
+      margin:auto;
+      margin-top: 150px;
+    }
+
+    
+  }
+
+ 
+
+
+    
+  
+
+  &__count{
+    margin-top:120px;
+
+    @include tablet{
+      
+      margin-top:150px;
+    }
+
+    @include desktop{
+      
+
+      width:50%;
+      margin:auto;
+      margin-top: 150px;
+    }
+
+    
+  }
+
+  &__watch{
+    margin-top:90px;
+
+    @include tablet{
+      
+      margin-top:150px;
+    }
+
+    @include desktop{
+      
+      width:50%;
+      margin:auto;
+      margin-top: 150px;
+    }
+   
+
+   
+  }
+
+
+
+  
+
+}
+

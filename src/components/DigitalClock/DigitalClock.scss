@@ -1,0 +1,21 @@
+.digital__clock{
+
+
+display:flex;
+flex-direction:column;
+color: whitesmoke;
+width:50%;
+justify-content: center;
+align-items: center;
+margin: auto;
+background-color: rgba(128, 123, 123, 0.671);
+margin-bottom:20px;
+margin-top:20px;
+border-radius:10px;
+
+
+&__time{
+    color:#89EF00;
+
+}
+}
